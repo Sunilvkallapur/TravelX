@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking - TravelX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">TravelX</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="train.html">Train Booking</a></li>
+            <li><a href="bus.html">Bus Booking</a></li>
+            <li><a href="hotels.html" class="active">Hotel Booking</a></li>
+            <li><a href="packages.html">Holiday Packages</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hotel Booking Form -->
+    <section class="hotel-hero">
+        <div class="hotel-container">
+            <h2>Hotel Booking</h2>
+
+            <form class="hotel-form">
+
+                <div class="input-group">
+                    <label>City</label>
+                    <input type="text" placeholder="Enter city" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Check-in Date</label>
+                    <input type="date" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Check-out Date</label>
+                    <input type="date" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Number of Rooms</label>
+                    <input type="number" min="1" value="1" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Number of Guests</label>
+                    <input type="number" min="1" value="1" required>
+                </div>
+
+                <button type="submit" class="hotel-btn">Search Hotels</button>
+
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

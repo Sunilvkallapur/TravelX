@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Booking - TravelX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">TravelX</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="train.html">Train Booking</a></li>
+            <li><a href="bus.html">Bus Booking</a></li>
+            <li><a href="hotels.html">Hotel Booking</a></li>
+            <li><a href="packages.html">Holiday Packages</a></li>
+            <li><a href="login.html" class="login-btn">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Train Booking Section -->
+    <section class="train-hero">
+        <div class="train-container">
+
+            <h2>Train Booking</h2>
+
+            <form class="train-form">
+
+                <div class="input-group">
+                    <label>From</label>
+                    <input type="text" placeholder="Enter departure city" required>
+                </div>
+
+                <div class="input-group">
+                    <label>To</label>
+                    <input type="text" placeholder="Enter destination city" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Date of Journey</label>
+                    <input type="date" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Class</label>
+                    <select required>
+                        <option value="">Select Class</option>
+                        <option>General</option>
+                        <option>Sleeper</option>
+                        <option>3AC</option>
+                        <option>2AC</option>
+                        <option>1AC</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="train-btn">Search Trains</button>
+
+            </form>
+
+        </div>
+    </section>
+
+</body>
+</html>

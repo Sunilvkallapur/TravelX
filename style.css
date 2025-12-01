@@ -1,0 +1,359 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-links a:hover{
+    color: #ffe27a;
+}
+
+.login-btn{
+    padding: 6px 14px;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+.login-btn:hover{
+    background: white;
+    color: black;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url('https://images.unsplash.com/photo-1526772662000-3f88f10405ff') center/cover no-repeat;
+  color: white;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 70px; /* offset for fixed navbar */
+}
+
+.hero h1{
+    font-size: 55px;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px 8px rgba(0,0,0,0.5);
+}
+
+.hero p{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.explore-btn{
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    background: #ffca28;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.explore-btn:hover{
+    background: #ffeb3b;
+}
+/* Login Hero Section */
+.login-hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url('login\ .jpg');
+    color: white;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    background: rgba(0,0,0,0.6);
+    padding: 40px 35px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+.login-container h2{
+    margin-bottom: 25px;
+}
+
+.login-container input{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 6px;
+}
+
+.login-container button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #ffca28;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-container button:hover{
+    background: #ffeb3b;
+}
+
+.login-container p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-container a{
+    color: #ffe27a;
+    text-decoration: none;
+}
+
+.login-container a:hover{
+    text-decoration: underline;
+}
+/* Train Booking Background */
+.train-hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url('train.jpg'); /* Local image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+/* Train Booking Card */
+.train-container{
+    background: rgba(0, 0, 0, 0.65);
+    padding: 40px 45px;
+    border-radius: 15px;
+    width: 400px;
+    color: white;
+}
+
+.train-container h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+/* Form Style */
+.train-form .input-group{
+    margin-bottom: 18px;
+}
+
+.train-form label{
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.train-form input,
+.train-form select{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Button */
+.train-btn{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #ffca28;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.train-btn:hover{
+    background: #ffeb3b;
+}
+
+/* ===========================
+   BUS BOOKING BACKGROUND
+=========================== */
+.bus-hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url('bus.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+/* Bus Booking Card */
+.bus-container {
+    background: rgba(0, 0, 0, 0.65);
+    padding: 35px 40px;
+    border-radius: 15px;
+    width: 400px;
+    max-width: 90%;
+    color: white;
+}
+
+.bus-container h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+/* Bus Form Style */
+.bus-form .input-group {
+    margin-bottom: 18px;
+}
+
+.bus-form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.bus-form input,
+.bus-form select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Button */
+.bus-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #ffca28;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.bus-btn:hover {
+    background: #ffeb3b;
+}
+
+/* ===========================
+   HOTEL BOOKING BACKGROUND
+=========================== */
+.hotel-hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url('hotel.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+/* Hotel Booking Card */
+.hotel-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 35px 40px;
+    border-radius: 15px;
+    width: 420px;
+    max-width: 90%;
+    color: white;
+}
+
+.hotel-container h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+/* Hotel Form Style */
+.hotel-form .input-group {
+    margin-bottom: 18px;
+}
+
+.hotel-form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.hotel-form input,
+.hotel-form select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Hotel Button */
+.hotel-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #ffca28;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.hotel-btn:hover {
+    background: #ffeb3b;
+}
